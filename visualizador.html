@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de arquivos</title>
+    <link rel="stylesheet" href="visualizador.css">
+</head>
+<body>
+    <h1>Visualizador de arquivos</h1>
+    <p>Selecione um arquivo html, CSS ou JavaScript</p>
+
+    <!--Seleção de arquivos com extensões específicas (js, html e css)  -->
+    <input type="file" id="fileInput" accept=".html, .css, .js">
+
+    <p></p>
+    <!--Botão que ao ser clicado chama a função loadFile()-->
+    <button onclick="loadFile()">Carregar</button>
+
+    <!--Onde o conteúdo do arquivo selecionado será exibido-->
+    <div id="fileConteudo" class="content"></div>
+
+    <!-- inclusao do arquivo js: -->
+    <script src="visualizador.js"></script>
+
+
+</body>
+
+</html>

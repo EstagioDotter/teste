@@ -1,0 +1,70 @@
+
+
+body {
+
+    font-family: Arial;
+    padding: 20px; /* Tamanho do espaço interno total*/
+    background-color: rgb(85, 0, 255);
+    color: black; /* cor do texto */
+
+}
+
+h1{/*estilo para o título*/
+    color: black;
+    text-align: center;
+    font-size:xx-large;
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 20px; /*espaço inteirno (verticalmente)*/
+    border-radius: 15px;/*arrendonda as bordas do retangulo*/
+    max-width: 500px;/*largura maxima horizontal*/
+    margin: 0 auto;
+}
+
+p {
+    font-weight: bold;/*font-weight é para definir a grossura do testo*/
+    color: white;
+    font-size: large;
+    padding-left: 12%;
+    margin-bottom: 10px;
+
+}
+
+input {
+    color: white;
+    font-size: medium;
+    padding-left: 12%;/*espaçamento à esquerda*/
+
+}
+
+button{
+    font-size: medium;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+
+}
+
+#fileConteudo {
+    background-color: white; /* Fundo branco */
+    color: black; /* Cor do texto */
+    border: 2px solid black; /* Borda para o quadrado */
+    padding: 20px; /* Espaço interno */
+    overflow: auto; /* Permite rolar o conteúdo se necessário */
+    max-width: 100%; /* Largura máxima */
+    min-height: 200px; /* Altura mínima */
+}
+
+
+.content {
+    
+    margin-top: 50px;
+    padding: 10px; /*tamanho do espaço interno */
+    border: 2px solid; /*espaço da borada ao redor*/
+    min-height: 200px; /*altura minima para garantir que nao fique muito pequeno (testar sem depois)*/
+    white-space: pre-wrap; /*propriedade para que o texto se comporte corretamente*/
+    word-wrap: break-word;  /*para que o texto seja "quebrado" da maneira correta*/
+    border-radius: 15px;/*arredonda as bordas em um raio de 15px, se for em porcentagem aí o canto é arredondado proporcionalmente ao tamanho do lado*/
+}
+
+
